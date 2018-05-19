@@ -1,1 +1,0 @@
-# Monocular-Augmentation-Manual
