@@ -1,0 +1,31 @@
+Compilation and Execution Instructions
+======================================
+ * Run make ARGS="data/1.jpg data/2.jpg data/3.jpg data/4.jpg data/5.jpg data/6.jpg data/7.jpg data/8.jpg data/9.jpg data/10.jpg data/11.jpg data/12.jpg data/13.jpg data/14.jpg data/15.jpg data/16.jpg data/17.jpg data/18.jpg data/19.jpg data/20.jpg data/21.jpg data/22.jpg data/23.jpg data/24.jpg data/25.jpg" run
+
+Usage 
+=====
+ * Use the '+' and '-' keys to move camera in and out
+	'+' zooms in
+	'-' zooms out
+ * Use left mouse button to rotate camera
+ * Use the arrow keys to toggle between frames while picking billboards
+ * Use right mouse button to pick billboards
+ * Use 'm' to start picking and 'm' when done
+ * Use 'i' to enter depth
+ * Use 'c' to change camera perspective to the top
+ * Use 's' to start/restart the simulation
+ * Use ESC to quit.
+ 
+Positions
+=========
+The background is at Z = 7, the camera is at Z = -6. To make a billboard closer to the camera provide decreasing depth.
+ 
+Limitations
+===========
+The program is limited to 50 frames at present. This can be extended by increasing the size of GLuint tex[50]
+
+External Libraries
+===============
+ * SOIL
+ * Fast Trackball
+
